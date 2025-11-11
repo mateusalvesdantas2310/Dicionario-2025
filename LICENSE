@@ -1,21 +1,210 @@
-MIT License
+print("Olá, tudo bem?")
+print("Bem vindo ao dicionario de 2025")
+abrir = input("Deseja abrir? 1. sim 2. não")
 
-Copyright (c) 2025 mateusalvesdantas2310
+if abrir == "2":
+    print("OK até logo!")
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+elif abrir == "1":
+    print("Cringe: significa algo vergonhoso que alguém fez")
+    print("Vai jogar no vasco: significa quando alguém morre(em jogo ou não)")
+    print("Foi de F: significa a mesma coide de foi jogar no vasco")
+    print("O foi de F foi criado pois no jogo: Call of Duty: Advanced Warfare um aliado morre e no funeral para prestar respeito o jogador tem que apertar a tecla F")
+    print("Soft: significa que uma pessoa falou ou está calma ou suave")
+    print("Bot: significa alguém que faz os mesmos movimentos sempre com a mesma extratégia ou que é um robô em uma partida de jogo")
+    print("Ban: que foi banido de um lugar, jogo, plataforma ou aplicativo")
+    print("Nn: significa não")
+    print("Ss: significa sim")
+    print("Pq: significa por que ou porque")
+    print("Pfv: significa por favor")
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    print("Agora tem um quiz")
+    quiz = input("Quer jogar 1. não 2. sim")
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    if quiz == "1":
+        print("OK, quando quiser voltar pode vir!")
+
+    elif quiz == "2":
+        print("1. Oque significa cringe?")
+        print("a) algo vergonhoso")
+        print("b) algo normal")
+        print("c) algo legal")
+        print("d) algo ruim")
+        um = input("a, b, c ou d?")
+
+    if um == "b":
+        print("resposta errada renicie")
+
+    elif um == "c":
+        print("resposta errada renicie")
+
+    elif um == "d":
+        print("resposta errada renicie")
+
+    elif um == "a":
+        print("resposta correta!")
+        print("2.Oque significa foi jogar no vasco?")
+        print("a) que a pessoa reviveu")
+        print("b) que a pessoa está feliz")
+        print("c) que a pessoa foi jogar no time vasco")
+        print("d) que a pessoa morreu")
+        dois = input("a, b, c ou d?")
+
+    if dois == "a":
+        print("resposta errada renicie")
+
+    elif dois == "b":
+        print("resposta errada renicie")
+
+    elif dois == "c":
+        print("resposta errada renicie")
+
+    elif dois == "d":
+        print("resposta correta!")
+        print("3. qual a história do foi de f ?")
+        print("a) foi criado do nada")
+        print("b) um cachorro que ia visitar o dono morto e ele começava com f")
+        print("c) do jogo Call of Duty: Advanced Warfare que um aliado morreu e apertamos f para a continência")
+        print("d) foi criado por uma criança aleatória")
+        tres = input("a, b, c ou d?")
+
+    if tres == "a":
+        print("resposta errada renicie")
+
+    elif tres == "b":
+        print("resposta errada renicie")
+
+    elif tres == "d":
+        print("resposta errada renicie")
+
+    elif tres == "c":
+        print("resposta correta!")
+        print("4.Oque significa soft?")
+        print("a) significa calmo ou suave")
+        print("b) significa raivoso ou bravo")
+        print("c) significa feliz ou animado")
+        print("d) significa com medo ou assustado")
+        quatro = input("a, b, c ou d?")
+
+    if quatro == "b":
+        print("resposta errada renicie")
+
+    elif quatro == "c":
+        print("resposta errada renicie")
+
+    elif quatro == "d":
+        print("resposta errada renicie")
+
+    elif quatro == "a":
+        print("resposta corret!")
+        print("5.Oque significa Bot?")
+        print("a) significa um jogador que joga muito bem")
+        print("b) significa um jogador que sempre faz igual ou que é um robô")
+        print("c) significa que um jogador é dono do jogo")
+        print("d) significa o nome de um jogo")
+        cinco = input("a, b, c ou d?")
+
+    if cinco == "a":
+        print("resposta errada renicie")
+
+    elif cinco == "c":
+        print("resposta errada renicie")
+
+    elif cinco == "d":
+        print("resposta errada renicie")
+
+    elif cinco == "b":
+        print("resposta correta!")
+        print("6.Oque significa Ban?")
+        print("a) um jogador que usa hacks")
+        print("b) quando um jogo fali")
+        print("c) quando um jogador é banido")
+        print("d) quando um jogo fica famoso")
+        seis = input("a, b, c ou d?")
+
+    if seis == "a":
+        print("resposta errada renicie")
+
+    elif seis == "b":
+        print("resposta errada renicie")
+
+    elif seis == "d":
+        print("resposta errada renicie")
+
+    elif seis == "c":
+        print("resposta correta!")
+        print("7.Oque significa nn?")
+        print("a) significa sim")
+        print("b)significa oque")
+        print("c) significa por que")
+        print("d) significa não")
+        sete = input("a, b, c ou d?")
+
+    if sete == "a":
+        print("resposta errada renicie")
+
+    elif sete == "b":
+        print("resposta errada renicie")
+
+    elif sete == "c":
+        print("resposta errada renicie")
+
+    elif sete == "d":
+        print("resposta correta!")
+        print("8.Oque significa ss?")
+        print("a) significa sim")
+        print("b) significa não")
+        print("c) significa legal")
+        print("d) significa bom")
+        oito = input("a, b, c ou d?")
+
+    if oito == "b":
+        print("resposta errada renicie")
+
+    elif oito == "c":
+        print("resposta errada renicie")
+
+    elif oito == "d":
+        print("resposta errada renicie")
+
+    elif oito == "a":
+        print("resposta correta!")
+        print("9.Oque significa pq?")
+        print("a) significa o que")
+        print("b) significa por que será")
+        print("c) significa por que")
+        print("d) significa legal")
+        nove = input("a, b, c ou d?")
+
+    if nove == "a":
+        print("resposta errada renicie")
+
+    elif nove == "b":
+        print("resposta errada renicie")
+
+    elif nove == "d":
+        print("resposta errada renicie")
+
+    elif nove == "c":
+        print("resposta correta!")
+        print("última pergunta")
+        print("10.Oque significa pfv?")
+        print("a) significa conlicença")
+        print("b) significa sai do meio que tu não é invisivel")
+        print("c) significa faz pra mim que eu te pago depois")
+        print("d) significa por favor")
+        dez = input("a, b, c ou d?")
+
+    if dez == "a":
+        print("resposta errada renicie")
+
+    elif dez == "b":
+        print("resposta errada renicie")
+
+    elif dez == "c":
+        print("resposta errada renicie")
+
+    elif dez == "d":
+        print(" RESPOSTA CORRETA!!!!!")
+        print("Parabéns você zerou o quiz")
+        print("Você agora entende a maioria das abreviações e girías de 2025")
